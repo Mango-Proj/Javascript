@@ -1,0 +1,19 @@
+/* Pseudo-class 를 이용한 태그 디자인 조정 */
+
+li:first-child{
+    background-color: lightcoral;
+}
+
+li:first-child::first-letter{
+    font-size:  200%;
+    color: #ff0000;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.item::after{
+
+    content: "- 중요함!";
+    color: magenta;
+}

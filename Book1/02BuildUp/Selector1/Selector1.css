@@ -1,0 +1,16 @@
+/* 
+ID,CLASS 속성 이용한 BOX MODEL 속성 조정 
+*/
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}

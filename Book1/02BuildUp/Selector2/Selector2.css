@@ -1,0 +1,21 @@
+/* 
+속성 선택자 이용: name 속성과 input 태그를 이용하여 디자인 조정 
+*/
+
+/* name 속성이 들어간 태그 전부 조정 */
+[name]{
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid lightcoral;
+}
+
+/* name 속성의 값이 'passwd'인 것만 조정*/
+[name=passwd]{
+    border: 1px solid lightgrey;
+
+}
+
+/* input 태그 중 name 속성의 값이 'passwd'인 것만 조정 */
+input[name=passwd]{
+    border: 1px solid lightgreen;
+}

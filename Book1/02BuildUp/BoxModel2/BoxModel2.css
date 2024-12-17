@@ -1,0 +1,16 @@
+/* 
+ID 속성 이용한 BOX MODEL 속성 조정 
+*/
+
+#contentBox, #borderBox{
+    width: 200px;
+    height: 100px;
+    margin: 10px 0;
+    padding: 0 50px;
+    background-color: lightcoral;
+}
+
+#borderBox{
+    background-color: lightgreen;
+    box-sizing: border-box;
+}
