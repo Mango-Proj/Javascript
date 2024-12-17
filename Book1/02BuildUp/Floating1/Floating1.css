@@ -3,3 +3,10 @@ ul.menu{
     padding: 0;
     outline: 1px solid red;
 }
+
+ul.menu>li{
+    width: 25%;
+    height: 2rem;
+    text-align: center;
+    outline: 1px solid navy;
+}
