@@ -1,0 +1,5 @@
+#weather{width: 84px; height: 76px; background: url(ImageSprite.png) no-repeat;}
+
+#weather:hover{cursor: pointer; background-position: -84px 0;}
+
+#weather:active{cursor: pointer; background-position: 0 -76px;}
