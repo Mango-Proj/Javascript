@@ -1,0 +1,4 @@
+div{width: 100px; height: 100px; margin-bottom: 10px;}
+
+div.relative{background-color: lightcoral;}
+div.absolute{background-color: lightgreen;}
