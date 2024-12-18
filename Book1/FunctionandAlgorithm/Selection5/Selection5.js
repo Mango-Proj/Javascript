@@ -6,6 +6,7 @@ function checkAge(){
 }
 function sendMessage(msg){
     let message;
+    
     if(msg == '관람 가능')
         message = '<div class="alert alert-success" role="alert">'+msg+'</div>';
     else 
