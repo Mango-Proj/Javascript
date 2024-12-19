@@ -1,0 +1,9 @@
+#weather, #js_weather{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    cursor: pointer;
+}
+#weather:hover{
+    background-color: blue;
+}
